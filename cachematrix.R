@@ -5,9 +5,9 @@
 ## There are two functions makeCacheMatrix,make CacheMatrix
 ## makeCacheMatrix consists of set,get,setinv, getinv
 ## library(MASS) is used to calculate inverse for non squared as well as square matrices
-libarary(MASS)
+library(MASS)
 makeCacheMatrix <- function(x = matrix()) {
-inv<-NULL        #initrializing inverse as NULL
+inv<-NULL        #initializing inverse as NULL
  set<-function(y) {
   x<<-y
   inv<<-NULL
